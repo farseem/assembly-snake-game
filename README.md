@@ -22,7 +22,9 @@ Implemented the following Extra features
 • A speed increase feature, where the speed of the snake increases every time the snake eats an apple. 
   The speed increases by 10000 milliseconds. The default speed is .4 seconds (400000 milliseconds). 
   Since the increment is small, it is best visible while the  snake moves vertically. 
+  
 • Included an implementation of a timer that will end the game after a certain amount of time (30 seconds). 
   The timer is reset every time the snake eats an apple. If the snake is safe until it eats an apple every 30 seconds.
+  
 • Limited the apples to only appear in a space where neither the snake nor any other apple is present. If there is an apple
   or a snake segment present, did the apple reappearing task until there is no clash with the apple or snake. 
