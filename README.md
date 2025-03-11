@@ -1,8 +1,8 @@
 # assembly-snake-game
 This project was to write a snake game with a defined set of features and environment setup.  
-• The game is implemented in x86-64 assembly
-• Is compilable with GNU as and linked with GNU GCC, used AT&T syntax-style assembly.
-• Used GDB as debugging tool; that's an essential.  
+- The game is implemented in x86-64 assembly
+- Is compilable with GNU as and linked with GNU GCC, used AT&T syntax-style assembly.
+- Used GDB as debugging tool; that's an essential.  
 
 Implemented features
 ---------------------
@@ -17,14 +17,14 @@ Implemented features
  - The size of the playfield (board) is the current size of the command window. It's calculated dynamically.
  - The snake starts at the middle of the board.
 
-Implemented the following Extra features
+Implemented following Extra features
 ---------------------------------------- 
-• A speed increase feature, where the speed of the snake increases every time the snake eats an apple. 
+- A speed increase feature, where the speed of the snake increases every time the snake eats an apple. 
   The speed increases by 10000 milliseconds. The default speed is .4 seconds (400000 milliseconds). 
   Since the increment is small, it is best visible while the  snake moves vertically. 
   
-• Included an implementation of a timer that will end the game after a certain amount of time (30 seconds). 
+- Included an implementation of a timer that will end the game after a certain amount of time (30 seconds). 
   The timer is reset every time the snake eats an apple. If the snake is safe until it eats an apple every 30 seconds.
   
-• Limited the apples to only appear in a space where neither the snake nor any other apple is present. If there is an apple
+- Limited the apples to only appear in a space where neither the snake nor any other apple is present. If there is an apple
   or a snake segment present, did the apple reappearing task until there is no clash with the apple or snake. 
